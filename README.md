@@ -1,24 +1,9 @@
 # Flash-Chat
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Flash Chat App
+This app project is for a Udemy course by instructor: Angel Yu.</br>
+Course link: https://www.udemy.com/ios-12-app-development-bootcamp/
 
-Beginner: Download the starter project files as .zip and extract the files to your desktop.
-
-Pro: Git clone to your Xcode projects folder.
-
-## Podfile Configuration
-```
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
-        end
-    end
-end
-```
-
-## Finished App
+## Description
+This app is a chat application using Firebase. The user is able to create an account using an email and then authenticate. Users that are using the app can then chat back and forth.
+## App Demo
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/Flash%20Chat.gif)
-
-
-
 Copyright © The App Brewery
